@@ -1,9 +1,9 @@
 class Container < Formula
   desc "Create and run Linux containers using lightweight virtual machines on Mac"
   homepage "https://github.com/apple/container"
-  url "https://github.com/apple/container/releases/download/1.3.1/container-1.3.1-installer-signed.pkg",
+  url "https://github.com/apple/container/releases/download/1.4.1/container-1.4.1-installer-signed.pkg",
       using: :nounzip
-  sha256 "a7c1b9d7927d30875f2f6c7bd1d0cb06c2daa6ca57ce9e90a5144e898fdf54a8"
+  sha256 "c0d2716afefbb194c93fae662e9cae7cc186bcbcf746816608ec673dd648a6a4"
   license "Apache-2.0"
   head "https://github.com/apple/container.git", branch: "main"
 
